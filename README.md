@@ -3,36 +3,11 @@
 [![Build Status](https://github.com/beryx-gist/badass-runtime-example-javafx/workflows/Gradle%20Build/badge.svg)](https://github.com/beryx-gist/badass-runtime-example-javafx/actions?query=workflow%3A%22Gradle+Build%22)
 
 
-## Badass Runtime Plugin Example: JavaFX Application ##
+### Mirai DeskTop Client
+Mirai桌面客户端
 
-A small JavaFX 11 non-modular application that shows how to use the [Badass Runtime Plugin](https://github.com/beryx/badass-runtime-plugin/).
-
-It allows you to create a custom runtime image of your application and a platform-specific installer for it.
-
-### Usage
-**Running with gradle:**
-```
-./gradlew run
-```
-
-The following window should appear on the screen:
-
-<img src="https://github.com/beryx-gist/badass-runtime-example-javafx/raw/master/doc/app.png">
-
-
-**Creating and executing a custom runtime image:**
-```
-./gradlew runtime
-cd build/image/bin
-./hellofx
-```
-
-
-**Creating a platform-specific installer:**
-```
-./gradlew jpackage
-```
-
-The above command will generate the platform-specific installers in the `build/jpackage` directory.
-
-:bulb: You can check the artifacts produced by the [GitHub actions used to build this project](https://github.com/beryx-gist/badass-runtime-example-javafx/actions?query=workflow%3A%22Gradle+Build%22) and download an application package for your platform (such as [from here](https://github.com/beryx-gist/badass-runtime-example-javafx/actions/runs/225251734)).
+##### 预览
+<img src=".github/login.gif" alt="登录"/>
+<img src=".github/main.png" alt="主菜单"/><br>
+<img src=".github/menu.png" alt="下拉菜单"/>
+<img src=".github/list.png" alt="列表"/>

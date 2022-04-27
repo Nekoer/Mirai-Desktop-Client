@@ -175,7 +175,7 @@ public class PluginController implements Initializable {
                         disableIcon.setFitHeight(18.0);
                         disable.setOnMouseClicked(e -> {
 //                            AppConstant.miraiClassloader.removeClassLoader(data.getClassLoader());
-                            AppConstant.miraiClassloader.disable(data.getClasspath(), data.getClassFileName(),data.getClassLoader(),data.getClassName());
+//                            AppConstant.miraiClassloader.disable(data.getClasspath(), data.getClassFileName(),data.getClassLoader(),data.getClassName());
                         });
                         rightSplitPane.getItems().addAll(new Label("               "), disableIcon, disable);
 
