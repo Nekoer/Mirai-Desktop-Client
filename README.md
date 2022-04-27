@@ -4,10 +4,10 @@
 
 
 ### Mirai DeskTop Client
-Mirai×ÀÃæ¿Í»§¶Ë
+Miraiæ¡Œé¢å®¢æˆ·ç«¯
 
-##### Ô¤ÀÀ
-<img src=".github/login.gif" alt="µÇÂ¼"/>
-<img src=".github/main.png" alt="Ö÷²Ëµ¥"/><br>
-<img src=".github/menu.png" alt="ÏÂÀ­²Ëµ¥"/>
-<img src=".github/list.png" alt="ÁĞ±í"/>
+##### é¢„è§ˆ
+<img src=".github/login.gif" alt="ç™»å½•"/>
+<img src=".github/main.png" alt="ä¸»èœå•"/><br>
+<img src=".github/menu.png" alt="ä¸‹æ‹‰èœå•"/>
+<img src=".github/list.png" alt="åˆ—è¡¨"/>
