@@ -1,0 +1,11 @@
+account:
+  # 账号, 现只支持 QQ 数字账号
+  account: 123456
+#  配置
+  configuration:
+    # 账号配置. 可用配置列表 (注意大小写):
+    # "protocol": "ANDROID_PHONE" / "ANDROID_PAD" / "ANDROID_WATCH"
+    protocol: ANDROID_PHONE
+# 密码
+  password:
+    value:

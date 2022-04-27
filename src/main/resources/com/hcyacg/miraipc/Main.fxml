@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+
+<Pane id="pane" fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="150.0" stylesheets="@css/main.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hcyacg.miraipc.controller.MainController">
+   <Pane id="root" layoutX="13.0" layoutY="15.0" prefHeight="42.0" prefWidth="125.0" style="-fx-background-color: white;-fx-background-radius: 30.0">
+
+   </Pane>
+   <ImageView id="avatar" fx:id="avatar" fitHeight="50.0" fitWidth="50.0" layoutX="13.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+      <fitHeight>30</fitHeight>
+      <fitHeight>30</fitHeight>
+      <clip>
+         <Circle fx:id="circle" centerX="25" centerY="25" fill="aqua">
+            <radius>18</radius>
+         </Circle>
+      </clip>
+   </ImageView>
+   <Label fx:id="botState" layoutX="69.0" layoutY="38.0" prefHeight="18.0" prefWidth="50.0" text="Label" />
+   <Label fx:id="botName" layoutX="69.0" layoutY="19.0" prefHeight="18.0" prefWidth="59.0" text="Label" />
+</Pane>

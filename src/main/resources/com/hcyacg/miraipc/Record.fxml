@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.layout.Pane?>
+<?import io.github.palexdev.materialfx.controls.legacy.MFXLegacyTableView?>
+<Pane prefHeight="440.0" prefWidth="739.0" stylesheets="@css/record.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hcyacg.miraipc.controller.RecordController">
+    <MFXLegacyTableView fx:id="table" prefHeight="440.0" prefWidth="739.0">
+        <columns>
+            <TableColumn fx:id="time" prefWidth="140.79998779296875" text="时间" />
+            <TableColumn fx:id="state" minWidth="6.4000244140625" prefWidth="78.4000244140625" text="状态" />
+            <TableColumn fx:id="from" prefWidth="104.79998779296875" text="来源" />
+            <TableColumn fx:id="content" prefWidth="416.4000244140625" text="内容" />
+        </columns>
+    </MFXLegacyTableView>
+</Pane>
